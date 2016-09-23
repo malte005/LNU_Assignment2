@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Assig. 2</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Menu/Nav -->
+    <string name="menu_header">Assignment Part Two</string>
+    <string name="menu_header_name">Malte Dammann</string>
+    <string name="nav_country">Country</string>
+    <string name="nav_alarm">Alarm</string>
+    <string name="nav_mp3">Media Player</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Menu/Option -->
+    <string name="sort_asc_country">Sort Country asc</string>
+    <string name="sort_desc_country">Sort Country desc</string>
+    <string name="sort_asc_year">Sort Year asc</string>
+    <string name="sort_desc_year">Sort Year desc</string>
+
+    <!-- CountryActivity -->
+    <string name="title_activity_country">Country List</string>
+    <string name="title_activity_add_country">Add Country</string>
+    <string name="add">add country</string>
+    <string name="header">Add new country and the year of visit</string>
+    <string name="lblCountry">Country:</string>
+    <string name="hintCountry">new country name</string>
+    <string name="lblYear">Year:</string>
+    <string name="hintYear">year of visit</string>
+    <string name="btnAdd">Add</string>
+
+    <!-- Mp3Activity -->
+    <string name="title_activity_mp3">MP3 Player</string>
+    <string name="nosd">Media storage is not available</string>
+    <string name="error">Player crashed</string>
+    <string name="stop_playback">Stop playback</string>
+    <string name="nothing_played">No song was played yet</string>
+    <string name="not_title">My fancy Player</string>
+    <string name="not_songPlayed">Playing:</string>
+
+    <!-- AlarmActivity -->
+    <string name="title_activity_alarm">Alarm Clock</string>
+    <string name="title_activity_alarm_ringing">Alarm Ringing</string>
+    <string name="close_alarm">TAP FOR\nCLOSING</string>
+    <string name="time_head">TIME:</string>
+    <string name="alarm_head">ALARM:</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <string name="nav_settings_title">Other stuff</string>
+
+    <!-- General settings -->
+    <string name="pref_header_general">General Country UI</string>
+
+    <string name="pref_title_change_colors">Change color for Country entries</string>
+    <string-array name="pref_list_colors">
+        <item>White</item>
+        <item>Grey</item>
+        <item>Green</item>
+    </string-array>
+    <string-array name="pref_list_color_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string name="pref_title_change_sort_oder">Change sort order for Country entries</string>
+    <string-array name="pref_list_sort_order">
+        <item>Country asc</item>
+        <item>Country desc</item>
+        <item>Year asc</item>
+        <item>Year desc</item>
+    </string-array>
+    <string-array name="pref_list_sort_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>

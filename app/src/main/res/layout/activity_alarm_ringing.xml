@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context="assignment2.md222pv.dv606.assignment2.alarm.AlarmRinging">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/aTime"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:gravity="center|top"
+        android:layout_marginTop="80dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_x"
+        android:layout_gravity="center"
+        android:background="@null"/>
+
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|bottom"
+        android:keepScreenOn="true"
+        android:text="@string/close_alarm"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="50sp"
+        android:layout_marginBottom="80dp"
+        android:textStyle="bold" />
+
+</FrameLayout>
